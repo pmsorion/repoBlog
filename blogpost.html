@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Hyperblog 2.0 es un blog del futuro</title>
     <link rel="stylesheet" href="css/estilos.css" />
 </head>
@@ -15,6 +16,7 @@
             <h1>Aqu&iacute; inicia la historia de un gran proyecto</h1>
             <p>y este es el p&aacute;rrafo de inicio donde vamos a explicar las cosas incre&iacute;bles que se pueden hacer con ramas</p>
             <p><img src="imagenes/equipo.jpeg" width="100%" /></p>
+            <!-- <P<img src="https://firebasestorage.googleapis.com/v0/b/hyperblog-3ba8e.appspot.com/o/imagenes%2Fequipo.jpeg?alt=media&token=d5ff78c0-7270-4523-90d1-5f5b02478518"></P> -->
             <p>Los blogs son la mejor forma de compartir información y tus ideas. Mucho mas que ir a conferencias o salir en Youtube. Excepto si eres un rockstar. Pero estadísticamente no lo eres.... por ahora.</p>
             <p>Suscribete y dale like</p>
         </div>
@@ -22,5 +24,17 @@
             Hecho con amor en Platzi &lt;3
         </div>
     </div>
+    <script src="https://www.gstatic.com/firebasejs/5.1.0/firebasejs"></script>
+    <script>
+        var config = {
+            apiKey: "d5ff78c0-7270-4523-90d1-5f5b02478518",
+            authDomain: "functionss-4a245.firebaseapp.com",
+            databaseURL: "https://functionss-4a245.firebaseio.com",
+            projectId: "functionss-4a245",
+            storageBucket: "functionss-4a245.appspot.com",
+            messagingSenderId: "210208446196"
+        };
+        firebase.initializeApp(config);
+    </script>
 </body>
 </html>
